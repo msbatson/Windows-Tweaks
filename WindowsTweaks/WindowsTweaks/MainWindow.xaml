@@ -1,0 +1,113 @@
+﻿<Window x:Class="WindowsTweaks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsTweaks"
+        mc:Ignorable="d"
+        Title="Windows Tweaks" Height="450" Width="800" FontSize="15">
+    <Viewbox Stretch="Fill">
+    <DockPanel Width="672">
+            <ListBox x:Name="SelectionBox" Height="Auto" Width="Auto" DockPanel.Dock="Left" SelectionChanged="ListBox_SelectionChanged" VerticalAlignment="Top" BorderBrush="{x:Null}">
+                <ListBoxItem Content="Window Colors" x:Name="Selection_WindowsColors" Padding="5"></ListBoxItem>
+                <ListBoxItem Content="Windows Themes" x:Name="Selection_WindowsThemes" Padding="5"></ListBoxItem>
+                <Label Content="More to come?" Padding="5" IsEnabled="False"/>
+            </ListBox>
+            <Border DockPanel.Dock="Right" BorderBrush="Black" BorderThickness="1">
+            <Grid Width="Auto">
+                <Grid x:Name="WindowsColorsTab" Visibility="Visible">
+                    <DockPanel>
+                        <Grid DockPanel.Dock="Top" Height="64" Margin="0,0,0.2,0">
+                                <TextBlock Padding="2" FontSize="12">Allows you to modify your Windows colors to your liking with ease. <LineBreak/>
+                                       Set the color of inactive windows by unchecking "Active Window Accent"</TextBlock>
+                        </Grid>
+                            <DockPanel>
+                                <Grid DockPanel.Dock="Top">
+                                    <DockPanel>
+                                        <WrapPanel DockPanel.Dock="Right" x:Name="WindowsDefaultColors" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" Width="373">
+                                            <Button x:Name="Tile1" Width="44" Height="44" Margin="1" Background="#FFB900" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile2" Width="44" Height="44" Margin="1" Background="#FF8C00" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile3" Width="44" Height="44" Margin="1" Background="#F7630C" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile4" Width="44" Height="44" Margin="1" Background="#CA5010" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile5" Width="44" Height="44" Margin="1" Background="#DA3B01" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile6" Width="44" Height="44" Margin="1" Background="#EF6950" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile7" Width="44" Height="44" Margin="1" Background="#D13438" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile8" Width="44" Height="44" Margin="1" Background="#FF4343" Click="ColorTile_Click"></Button>
+
+                                            <Button x:Name="Tile9" Width="44" Height="44" Margin="1" Background="#E74856" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile10" Width="44" Height="44" Margin="1" Background="#E81123" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile11" Width="44" Height="44" Margin="1" Background="#EA005E" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile12" Width="44" Height="44" Margin="1" Background="#C30052" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile13" Width="44" Height="44" Margin="1"  Background="#e3008c" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile14" Width="44" Height="44" Margin="1" Background="#BF0077" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile15" Width="44" Height="44" Margin="1" Background="#C239B3" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile16" Width="44" Height="44" Margin="1" Background="#9A0089" Click="ColorTile_Click"></Button>
+
+                                            <Button x:Name="Tile17" Width="44" Height="44" Margin="1" Background="#0078D7" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile18" Width="44" Height="44" Margin="1" Background="#0063B1" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile19" Width="44" Height="44" Margin="1" Background="#8E8CD8" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile20" Width="44" Height="44" Margin="1" Background="#6B69D6" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile21" Width="44" Height="44" Margin="1" Background="#8764B8" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile22" Width="44" Height="44" Margin="1" Background="#744DA9" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile23" Width="44" Height="44" Margin="1" Background="#B146C2" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile24" Width="44" Height="44" Margin="1" Background="#881798" Click="ColorTile_Click"></Button>
+
+                                            <Button x:Name="Tile25" Width="44" Height="44" Margin="1" Background="#0099BC" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile26" Width="44" Height="44" Margin="1" Background="#2D7D9A" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile27" Width="44" Height="44" Margin="1" Background="#00B7C3" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile28" Width="44" Height="44" Margin="1" Background="#038387" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile29" Width="44" Height="44" Margin="1" Background="#00B294" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile30" Width="44" Height="44" Margin="1" Background="#018574" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile31" Width="44" Height="44" Margin="1" Background="#00CC6A" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile32" Width="44" Height="44" Margin="1" Background="#10893E" Click="ColorTile_Click"></Button>
+
+                                            <Button x:Name="Tile33" Width="44" Height="44" Margin="1" Background="#7A7574" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile34" Width="44" Height="44" Margin="1" Background="#5D5A58" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile35" Width="44" Height="44" Margin="1" Background="#68768A" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile36" Width="44" Height="44" Margin="1" Background="#515C6B" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile37" Width="44" Height="44" Margin="1" Background="#567C73" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile38" Width="44" Height="44" Margin="1" Background="#486860" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile39" Width="44" Height="44" Margin="1" Background="#498205" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile40" Width="44" Height="44" Margin="1" Background="#107C10" Click="ColorTile_Click"></Button>
+
+                                            <Button x:Name="Tile41" Width="44" Height="44" Margin="1, 2" Background="#767676" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile42" Width="44" Height="44" Margin="1, 2" Background="#4C4A48" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile43" Width="44" Height="44" Margin="1, 2" Background="#69797E" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile44" Width="44" Height="44" Margin="1, 2" Background="#4A5459" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile45" Width="44" Height="44" Margin="1, 2" Background="#647C64" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile46" Width="44" Height="44" Margin="1, 2" Background="#525E54" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile47" Width="44" Height="44" Margin="1, 2" Background="#847545" Click="ColorTile_Click"></Button>
+                                            <Button x:Name="Tile48" Width="44" Height="44" Margin="1, 2" Background="#7E735F" Click="ColorTile_Click"></Button>
+                                        </WrapPanel>
+                                        <Grid DockPanel.Dock="Left">
+                                            <CheckBox x:Name="chkDarkStart" FontSize="13" Content="Colorless Start" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="ChkDarkStart_Checked" Unchecked="ChkDarkStart_Checked" Margin="6,10,0,0"/>
+                                            <Button x:Name="CustomColor" Content="Set Custom Color"  VerticalAlignment="Top" Margin="10,55,10.4,0" Click="CustomColor_Click"/>
+                                            <CheckBox x:Name="chkActiveAccent" IsChecked="True" FontSize="13" Content="Active Window Accent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,33,0,0"/>
+                                        </Grid>
+                                    </DockPanel>
+                                </Grid>
+                            </DockPanel>
+                        </DockPanel>
+                </Grid>
+                    <Grid x:Name="WindowsThemesTab" Visibility="Hidden">
+                        <DockPanel>
+                            <Grid DockPanel.Dock="Top" Height="64" Margin="0,0,0.2,0">
+                                <TextBlock Padding="2" FontSize="12">Allows editing of certain theme settings. <LineBreak/>
+                                Some features require Windows Tweaks to be run as administrator.</TextBlock>
+                            </Grid>
+                            <DockPanel>
+                                <Grid DockPanel.Dock="Top">
+                                    <DockPanel>
+                                        <Grid>
+                                            <Button x:Name="btnCreateAeroLite" Content="Create AeroLite Theme File" FontSize="13" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                                        </Grid>
+                                    </DockPanel>
+                                </Grid>
+                            </DockPanel>
+                        </DockPanel>
+                    </Grid>
+            </Grid>
+        </Border>
+    </DockPanel>
+    </Viewbox>
+</Window>

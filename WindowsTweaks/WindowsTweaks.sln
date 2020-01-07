@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTweaks", "WindowsTweaks\WindowsTweaks.csproj", "{ECB839F6-AD7A-4D0C-85F7-3A79D09858AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB839F6-AD7A-4D0C-85F7-3A79D09858AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB839F6-AD7A-4D0C-85F7-3A79D09858AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB839F6-AD7A-4D0C-85F7-3A79D09858AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB839F6-AD7A-4D0C-85F7-3A79D09858AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87E2DC3E-AC4E-42CB-848D-33F918D7F1BF}
+	EndGlobalSection
+EndGlobal
